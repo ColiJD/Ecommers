@@ -1,0 +1,24 @@
+.head_search{
+    width: 50%;
+    margin-left: 2rem;
+
+}
+.search_contenedor{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-ceniza-medio);
+    padding: 0.5rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+    
+}
+.search_input{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.search_boton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

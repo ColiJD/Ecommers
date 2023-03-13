@@ -1,0 +1,30 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 7rem 3rem 7rem;
+
+}
+
+.head_busqueda {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.head_logo {
+    display: flex;
+    align-items: center;
+    font-family: var(--open);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bi-controller {
+    font-size: 2.5rem;
+    color: var(--fuente-boton);
+}
+
+.titulo1 {
+    color: var(--fuente-boton);
+}
