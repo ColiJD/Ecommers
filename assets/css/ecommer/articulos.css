@@ -1,0 +1,46 @@
+.articulos {
+    padding: 2rem 7rem 0 7rem;
+}
+
+.articulo_titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+.articulo_contenedor {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.articulo_contenido {
+    width: 15%;
+}
+
+.articulo_imagen {
+    width: 100%;
+    height: 160px;
+}
+
+.articulo_productos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+}
+
+.producto_precio {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.producto_boton {
+    text-decoration: none;
+    color: blue;
+    transition: all 1s;
+}
+
+.producto_boton:hover {
+    text-decoration: underline;
+    color: var(--fuente-boton);
+}

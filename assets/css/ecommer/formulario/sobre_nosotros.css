@@ -1,0 +1,30 @@
+.formulario{
+    padding: 3rem 7rem 3rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(  --background-azul-claro);
+}
+.logo_formulario{
+    display: flex;
+    font-family: var(--open);
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.lista_informacion{
+    display: flex;
+    flex-direction: column;
+}
+.lista_informacion il{
+    margin-bottom: 1rem;
+}
+.informacion_busquedad{
+    text-decoration: none;
+    color: var(--fuente-ceniza-claro);
+    transition: all 1s;
+}
+.informacion_busquedad:hover{
+    text-decoration: underline;
+    color: black;
+}
