@@ -15,9 +15,9 @@
     --background-azul: #4595b8;
 
 
-    --montserrat: 'Montserrat', sans-serif;
-    --open: 'Open Sans', sans-serif;
-    --openLoto: 'Lato', sans-serif;
+    --Roleway: 'Raleway', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+
     
 
 
@@ -25,16 +25,21 @@
 }
 
 body {
-    font-family: var(--open);
+    font-family: var(--Roleway);
+    font-weight: 400;
 }
 .boton{
-    width: 30%;
+    width: 40%;
     text-align: center;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 18.78px;
     background-color:blue;
     color: #fdfdfd;
     padding: 0.75rem;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 .boton:hover{
     background-color: var(--fuente-boton);

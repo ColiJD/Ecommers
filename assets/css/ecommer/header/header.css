@@ -15,7 +15,6 @@
 .head_logo {
     display: flex;
     align-items: center;
-    font-family: var(--open);
     font-size: 2rem;
     font-weight: bold;
 }

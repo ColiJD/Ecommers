@@ -20,6 +20,9 @@
     margin-bottom: 1rem;
 }
 .informacion_busquedad{
+    font-size: 16px;
+    font-weight:500;
+    line-height: 18.78px;
     text-decoration: none;
     color: var(--fuente-ceniza-claro);
     transition: all 1s;
