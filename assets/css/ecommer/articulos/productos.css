@@ -1,29 +1,3 @@
-.articulos {
-    padding: 2rem 7rem 0 7rem;
-}
-
-.articulo_titulo {
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 37.57px;
-    margin-bottom: 1.2rem;
-}
-
-.articulo_contenedor {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.articulo_contenido {
-    width: 15%;
-}
-
-.articulo_imagen {
-    width: 100%;
-    height: 174px;
-}
-
 .articulo_productos {
     display: flex;
     flex-direction: column;

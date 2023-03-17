@@ -1,0 +1,39 @@
+.articulos {
+    padding: 2rem 7rem 0 7rem;
+}
+.articulo_gestiones{
+    display: flex;
+    margin-bottom: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articulo_titulo {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 37.57px;
+    
+}
+.articulos_mas{
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 19px;
+    
+}
+.articulo_contenedor {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.articulo_contenido {
+    width: 15%;
+}
+
+.articulo_imagen {
+    width: 100%;
+    height: 174px;
+}
+
+

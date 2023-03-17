@@ -26,4 +26,28 @@
     line-height: 25.83px;
     margin-bottom: 0.75rem;
 }
+@media screen and (max-width:768px){
+    .banner_titulos{
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .banner_imagen{
+        height: 250px;
+    }
+    .banner_titulos{
+        padding-left: 2rem;
+        line-height: 26px;
+        top: 40%;
+    }
+    .banner_titulo{
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .banner_spam{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
 

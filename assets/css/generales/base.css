@@ -1,7 +1,7 @@
 :root {
     --black: #00161C;
     --blanco: #FFFFFF;
-    --background-azul-claro: #cceaf7;
+    --background-azul-claro: #EAF2FD;
     --background-ceniza-claro: #f2f2f2e8;
     --background-ceniza-medio: #D9D9D9;
 
@@ -29,7 +29,7 @@ body {
     font-weight: 400;
 }
 .boton{
-    width: 40%;
+    width: 33%;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -37,7 +37,8 @@ body {
     line-height: 18.78px;
     background-color:blue;
     color: #fdfdfd;
-    padding: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
@@ -45,6 +46,16 @@ body {
     background-color: var(--fuente-boton);
 }
 
+@media  screen and (max-width:768px){
+    .boton{
+        width: 40%;
+    }    
+}
+@media  screen and (max-width:480px){
+    .boton{
+        width: 50%;
+    }    
+}
 
 
 

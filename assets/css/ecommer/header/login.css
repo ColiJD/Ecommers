@@ -1,17 +1,23 @@
 
 .login_boton{
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    transition: all 1s ease-in-out;
+}
+.login_boton{
+    color: var(--background-azul);
+    border: var(--background-azul) 1px solid;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 16.78px;
-
-    color: var(--background-azul);
-    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
-    color: var(--background-azul);
-    border: var(--background-azul) 1px solid;
-    transition: all 1s ease-in-out;
 }
 .login_boton:hover{
     background-color: var(--fuente-boton);
     color: #fff;
+}
+
+@media screen and (max-width:480px) {
+    .login_boton {
+        padding: 0.2rem 1.5rem 0.2rem 1.5rem;;
+    }
 }

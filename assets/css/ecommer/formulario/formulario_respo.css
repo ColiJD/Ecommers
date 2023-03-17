@@ -1,0 +1,39 @@
+@media screen and (max-width:768px) {
+    .formulario {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        position: relative;
+    }
+
+    .formulario>*:nth-child(2) {
+        position: absolute;
+        top: 90px;
+    }
+    .formulario_info{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .formulario {
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: column;
+    }
+
+    .formulario>*:nth-child(2) {
+        position: static;
+    }
+
+    .logo_formulario{
+        margin-bottom: 1rem;
+    }
+    .lista_informacion{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .formulario_info{
+        width: 100%;
+    }
+}

@@ -1,15 +1,12 @@
 .head {
+    padding: 3rem 7rem 3rem 7rem;
+}
+
+.head_contenedor {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 7rem 3rem 7rem;
 
-}
-
-.head_busqueda {
-    width: 70%;
-    display: flex;
-    align-items: center;
 }
 
 .head_logo {
@@ -26,4 +23,29 @@
 
 .titulo1 {
     color: var(--fuente-boton);
+}
+
+
+@media screen and (max-width:768px) {
+    .head {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .head_logo {
+        font-size: 1rem;
+    }
+
+    .bi-controller {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .head {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    
 }
