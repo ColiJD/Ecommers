@@ -12,7 +12,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:480px) {
     .articulos {
         padding-left: 2rem;
         padding-right: 2rem;

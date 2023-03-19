@@ -1,5 +1,6 @@
 .articulos {
     padding: 2rem 7rem 0 7rem;
+    margin-bottom: 3rem;
 }
 .articulo_gestiones{
     display: flex;

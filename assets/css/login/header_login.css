@@ -1,0 +1,7 @@
+.head_contenedor{
+    display: flex;
+    justify-content: left;
+}
+.head_logo{
+    margin-right: 2.75rem;
+}

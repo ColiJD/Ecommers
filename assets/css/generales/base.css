@@ -28,6 +28,10 @@ body {
     font-family: var(--Roleway);
     font-weight: 400;
 }
+
+.iframe_header, banner{
+    margin: 0;
+}
 .boton{
     width: 33%;
     text-align: center;

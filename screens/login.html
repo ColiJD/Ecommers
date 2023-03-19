@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/generales/reset.css">
+    <link rel="stylesheet" href="../assets/css/generales/base.css">
+    <link rel="stylesheet" href="../assets/css/login/login1.css">
+    <link rel="stylesheet" href="../assets/css/ecommer/header/header.css">
+    <link rel="stylesheet" href="../assets/css/ecommer/header/search.css">
+    <link rel="stylesheet" href="../assets/css/login/header_login.css">
+    <link rel="stylesheet" href="../assets/css/login/login_resposivo.css">
+    <link rel="stylesheet" href="../assets/css/ecommer/header/infram.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,400;1,500;1,600;1,700&family=Roboto:wght@300;700&display=swap"
+        rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <header class="head" data-head>
+        <div class="head_contenedor">
+            <div class="head_logo">
+                <i class="bi bi-controller"></i>
+                <h2 class="titulo1">Alura</h2>
+                <h2 class="titulo2">GeeK</h2>
+            </div>
+            <div class="head_search">
+                <form class="search_contenedor" action="#">
+                    <input class="search_input" type="text" placeholder=" ¿Qué deseas buscar?" name="search">
+                    <button class="search_boton"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="login1">
+        <div class="login_cotenedor">
+            <form action="">
+                <fieldset>
+                    <legend>iniciar Sesion</legend>
+                    <div class="formulario__input">
+                        <input name="email" id="email" class="input" type="email"
+                            placeholder="Escriba su correo Electronico" required data-tipo="email">
+                        <label class="input__label" for="email"></label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="formulario__input">
+                        <input name="password" id="password" class="input" type="password"
+                            placeholder="Escriba su Contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required
+                            data-tipo="password">
+                        <label class="input__label" for="password"></label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                </fieldset>
+
+                <input type="submit" class="boton" value="Entrar">
+
+                <input type="hidden" name="_next">
+                <input type="hidden" name="_captcha" value="false">
+
+            </form>
+        </div>
+    </section>
+    <iframe class="iframe_formulario" src="../screens/formulario.html" frameborder="0"></iframe>
+
+</body>
+
+</html>
