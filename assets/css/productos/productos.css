@@ -1,0 +1,27 @@
+.productos_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-ceniza-claro);
+}
+.productos_contenedor{
+    width: 40%;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.producto_Titulo{
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.input_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+}
+.boton{
+    width: 100%;
+}

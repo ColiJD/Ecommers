@@ -1,0 +1,28 @@
+@media screen and (max-width:768px) {
+    .productos_contenedor {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .head {
+        padding-right: 1rem;
+        padding-left: 2rem;
+    }
+
+    .search_contenedor {
+        padding: 0;
+    }
+
+    .login_boton {
+        padding: 0.2rem;
+    }
+    .bi-search{
+        width: 100%;
+    }
+
+    .producto_Titulo {
+        font-size: 1.2rem;
+    }
+
+}

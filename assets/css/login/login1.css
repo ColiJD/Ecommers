@@ -33,16 +33,23 @@ legend {
     width: 100%;
     line-height: 20px;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
+
 .input-message-error {
     display: none;
 }
 
-.boton{
+.boton {
     width: 100%;
 }
-.formulario{
+
+.formulario {
     margin-top: 0;
+}
+
+.input-error {
+    border: 1px solid red;
 }

@@ -40,7 +40,7 @@
     </header>
     <section class="login1">
         <div class="login_cotenedor">
-            <form action="">
+            <form data-tipo="formulario">
                 <fieldset>
                     <legend>iniciar Sesion</legend>
                     <div class="formulario__input">
@@ -57,17 +57,12 @@
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                 </fieldset>
-
-                <input type="submit" class="boton" value="Entrar">
-
-                <input type="hidden" name="_next">
-                <input type="hidden" name="_captcha" value="false">
-
+                <button class="boton" data-entrar>Entrar</button>
             </form>
         </div>
     </section>
     <iframe class="iframe_formulario" src="../screens/formulario.html" frameborder="0"></iframe>
-
+<script src="../script/loginJS/login.js" type="module"></script>
 </body>
 
 </html>

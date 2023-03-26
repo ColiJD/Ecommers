@@ -1,0 +1,56 @@
+.input {
+    box-sizing: border-box;
+    padding: 1.375rem 0.5rem 0.5rem;
+    line-height: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 0.5px 0 #ccc;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input:focus,
+.inputT:focus {
+    outline: none;
+}
+
+.input__label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    transition: all 0.25s;
+    color: var(--fuente-ceniza-claro);
+
+}
+
+.input:not(:placeholder-shown)+.input__label,
+.input:focus+.input__label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
+
+.inputT {
+    padding-left: .5rem;
+    height: 4rem;
+}
+
+.input-message-error {
+    display: none;
+}
+
+.textarea {
+    font-family: var(--Roleway);
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    height: 70px;
+    font-size: 0.875rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 0.5px 0 #ccc;
+}
