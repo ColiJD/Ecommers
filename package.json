@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ColiJD/Ecommers/issues"
   },
-  "homepage": "https://github.com/ColiJD/Ecommers#readme"
+  "homepage": "https://github.com/ColiJD/Ecommers#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "muller": "^1.1.0"
+  }
 }

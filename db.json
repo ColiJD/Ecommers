@@ -1,14 +1,19 @@
 {
-    "perfil": [
-        {
-            "email": "colindresj9@gmail.com",
-            "clave": "Computacion2001*",
-            "id": "8acc362e-cbba-4a20-af4e-f311ff686cdf"
-        }
-    ],
-    "productos": [
-        {
-
-        }
-    ]
+  "perfil": [
+    {
+      "email": "colindresj9@gmail.com",
+      "clave": "Computacion2001*",
+      "id": "8acc362e-cbba-4a20-af4e-f311ff686cdf"
+    }
+  ],
+  "productos": [
+    {
+      "image": "https://github.com/ColiJD/Ecommers/blob/main/assets/img/bebe.jfif",
+      "categoria": "star-wars",
+      "nombre": "Bebe Yoda",
+      "precio": "45",
+      "descripcion": "Peluche",
+      "id": "35a98504-cf2f-4593-9eda-d27464075d2b"
+    }
+  ]
 }

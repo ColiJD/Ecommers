@@ -48,8 +48,8 @@
             <h1 class="producto_Titulo">Agregar Nuevo Producto</h1>
             <form class="produtos_form" data-form>
                 <div class="input_container">
-                    <input type="file" class="input" name="URL1" id="URL1" placeholder="URL de imagen" required
-                        data-url>
+                    <input type="text" class="input" name="imagen" id="imagen" placeholder="URL de imagen" required
+                        data-imagen>
                     <label for="URL1" class="input__label">Imagen</label>
                     <span class="input-message-error">Este
                         campo es requerido</span>
@@ -82,7 +82,11 @@
         </section>
         <iframe class="iframe_formulario" src="../screens/formulario.html" frameborder="0"></iframe>
     </main>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../script/controlesProduct.js" type="module"></script>
+    
 </body>
 
 </html>
