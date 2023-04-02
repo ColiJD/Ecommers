@@ -1,14 +1,15 @@
 import { productoServices } from "./services/producServices.js";
+import { validar } from "./validar.js";
 
 const form = document.querySelector('[data-form]');
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
-    const urlImagen = document.querySelector('[data-imagen]').value;
-    const categoria = document.querySelector('[data-categoria]').value;
-    const nombre = document.querySelector('[data-nombre]').value;
-    const precio = document.querySelector('[data-precio]').value;
-    const descripcion = document.querySelector('[data-descripcion]').value;
+    const urlImagen = document.querySelector('[data-tipo="imagenURL"]').value;
+    const categoria = document.querySelector('[data-tipo="categoria"]').value;
+    const nombre = document.querySelector('[data-tipo="nombre"]').value;
+    const precio = document.querySelector('[data-tipo="precio"]').value;
+    const descripcion = document.querySelector('[data-tipo="descripcion"]').value;
 
     productoServices.guardarProducto(urlImagen, categoria, nombre, precio, descripcion).then((respuesta) => {
         window.location.href = "../screens/productosAdmi.html";
@@ -17,3 +18,13 @@ form.addEventListener("submit", (event) => {
     });
 
 })
+
+const inputs = document.querySelectorAll('input');
+
+inputs.forEach(input => {
+    input.addEventListener('blur', (input) => {
+        validar(input.target);
+    });
+});
+
+

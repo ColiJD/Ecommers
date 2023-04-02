@@ -49,32 +49,36 @@
             <form class="produtos_form" data-form>
                 <div class="input_container">
                     <input type="text" class="input" name="imagen" id="imagen" placeholder="URL de imagen" required
-                        data-imagen>
-                    <label for="URL1" class="input__label">Imagen</label>
+                        data-tipo="imagenURl" pattern="^[A-Za-z]+\.(png|jpeg)$">
+                    <label for="URL1" class="input__label">imagen.png</label>
                     <span class="input-message-error">Este
                         campo es requerido</span>
                 </div>
                 <div class="input_container">
-                    <input type="text" class="input" id="categoria" name="categoria" required placeholder="Categoria"
-                        data-categoria>
+                    <select type="text" class="input" id="categoria" name="categoria" required placeholder="Categoria"
+                    data-tipo="categoria">
+                        <option value="Star">Star</option>
+                        <option value="Consola">Consola</option>
+                        <option value="Diversos">Diversos</option>
+                    </select>
                     <label for="nombre" class="input__label">Categoria</label>
                     <span class="input-message-error">Este campo es requerido</span>
                 </div>
                 <div class="input_container">
                     <input type="text" class="input" name="nombre" id="nombre" required
-                        placeholder="Nombre del Producto" data-nombre>
+                        placeholder="Nombre del Producto" data-tipo="nombre">
                     <label for="nombre" class="input__label">Nombre del Producto</label>
                     <span class="input-message-error">Este campo es requerido</span>
                 </div>
                 <div class="input_container">
                     <input type="number" class="input" name="precio" id="precio" required
-                        placeholder="Precio del Producto" data-precio>
+                        placeholder="Precio del Producto" data-tipo="precio">
                     <label for="precio" class="input__label">Precio del Producto</label>
                     <span class="input-message-error">Este campo es requerido</span>
                 </div>
                 <div class="input_container">
                     <textarea type="text" class=" textarea" name="descripcion" id="descripcion" required
-                        placeholder="Descripcion del Producto" data-descripcion></textarea>
+                        placeholder="Descripcion del Producto" data-tipo="descripcion"></textarea>
                     <span class="input-message-error">Este campo es requerido</span>
                 </div>
                 <button type="submit" class="boton">Agregar Producto</button>
@@ -86,7 +90,7 @@
         integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../script/controlesProduct.js" type="module"></script>
-    
+
 </body>
 
 </html>

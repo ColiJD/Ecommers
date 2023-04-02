@@ -25,3 +25,22 @@
 .boton{
     width: 100%;
 }
+.formulario__input--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.formulario__input--invalid .input {
+    border: 1px solid var(--boton-rojo);
+    border-radius: 7px;
+}
+
+.formulario__input--invalid .input__label {
+    color: var(--boton-rojo);
+}
+
+.formulario__input--invalid .input-message-error {
+    color: var(--boton-rojo);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}

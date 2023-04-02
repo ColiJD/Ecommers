@@ -1,13 +1,13 @@
 const listaProductos = () => fetch(' http://localhost:3000/productos').then((respuesta) => respuesta.json());
 
-const guardarProducto = async (image, categoria, nombre, precio, descripcion) => {
+const guardarProducto = async (imagen, categoria, nombre, precio, descripcion) => {
     fetch('http://localhost:3000/productos', {
         method: 'POST',
         headers: {
             'content-type': 'application/json',
         },
         body: JSON.stringify({
-            image,
+            imagen,
             categoria,
             nombre,
             precio,

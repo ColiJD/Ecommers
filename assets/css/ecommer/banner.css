@@ -2,7 +2,7 @@
     position: relative;
 }
 .banner_imagen{
-    background: url("../../img/fondoHongo.jfif") no-repeat center / cover;
+    background: url("../../img/fondoHongo.png") no-repeat center / cover;
     width: 100%;
     height: 352px;
 }

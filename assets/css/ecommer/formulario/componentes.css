@@ -39,3 +39,20 @@
 .input-message-error {
     display: none;
 }
+
+.botonFormulario{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 18.78px;
+    background-color:blue;
+    color: #fdfdfd;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.botonFormulario:hover{
+    background-color: var(--fuente-boton);
+}
