@@ -42,3 +42,4 @@ function mostarmensajeError(tipoDeinput, input) {
 
     return mensaje;
 }
+
