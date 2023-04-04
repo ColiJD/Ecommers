@@ -1,7 +1,7 @@
-const listaProductos = () => fetch(' http://localhost:3000/productos').then((respuesta) => respuesta.json());
+const listaProductos = () => fetch(' https://colijd.github.io/Ecommers/productos').then((respuesta) => respuesta.json());
 
 const guardarProducto = async (imagen, categoria, nombre, precio, descripcion) => {
-    fetch('http://localhost:3000/productos', {
+    fetch('https://colijd.github.io/Ecommers/productos', {
         method: 'POST',
         headers: {
             'content-type': 'application/json',

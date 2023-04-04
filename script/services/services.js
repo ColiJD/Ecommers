@@ -1,9 +1,9 @@
-const listaClientes = () => fetch(' http://localhost:3000/perfil').then((respuesta) => respuesta.json());
+const listaClientes = () => fetch('https://colijd.github.io/Ecommers/perfil').then((respuesta) => respuesta.json());
 
 
 
 const verificarUsuario = async (email, clave) => {
-    const response = await fetch('http://localhost:3000/perfil', {
+    const response = await fetch('https://colijd.github.io/Ecommers/perfil', {
         method: 'GET'
     });
     const clientes = await response.json();
