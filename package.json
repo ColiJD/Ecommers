@@ -4,7 +4,7 @@
   "description": "Proyecto de alura",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ColiJD/Ecommers#readme",
   "dependencies": {
+    "axios": "^1.5.1",
     "express": "^4.18.2",
     "muller": "^1.1.0"
   }
