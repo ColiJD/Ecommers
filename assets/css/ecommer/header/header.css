@@ -1,51 +1,96 @@
-.head {
-    padding: 3rem 7rem 3rem 7rem;
-}
-
 .head_contenedor {
+    padding: 0.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    overflow: hidden;
 }
-
 .head_logo {
     display: flex;
-    align-items: center;
-    font-size: 2rem;
+    width: 30%;
     font-weight: bold;
+    font-size: 16px;
+    align-items: center;
 }
-
 .bi-controller {
-    font-size: 2.5rem;
-    color: var(--fuente-boton);
+    font-size: 24px;
+    color: #2a7ae4;
 }
-
 .titulo1 {
-    color: var(--fuente-boton);
+    color: #2a7ae4;
+}
+.head_search {
+    position: relative;
+    order: +1;
+}
+.search_input {
+    box-sizing: border-box;
+    width: 0;
+    height: 35px;
+    border-radius: 50px;
+    transition: all 0.7s ease-in;
+    outline: none;
+    border: none;
+}
+::placeholder {
+    color: gray;
+}
+.search_boton {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    background-color: transparent;
+    border-color: transparent;
+}
+.bi-search {
+    font-size: 16px;
+    padding: 0.4rem;
+    line-height: 25px;
+    transition: all 0.7s ease;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
 }
 
-
-@media screen and (max-width:768px) {
-    .head {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-
-    .head_logo {
-        font-size: 1rem;
-    }
-
-    .bi-controller {
-        font-size: 1.5rem;
-    }
+.head_search:hover .search_input {
+    width: 175px;
+}
+.head_search:hover .bi-search {
+    background-color: #2a7ae4;
+    color: #fff;
+}
+.head_search:hover + .login {
+    display: none;
 }
 
-@media screen and (max-width:480px) {
-    .head {
-        padding-left: 2rem;
-        padding-right: 2rem;
+@media screen and (min-width: 768px) {
+    .head_contenedor {
+        padding: 16px 32px;
+    }
+    .head_search {
+        order: initial;
+        width: 45%;
+    }
+    .bi-search {
+        background-color: var(--background-ceniza-claro);
+    }
+    .search_input {
+        width: 100%;
+        background-color: var(--background-ceniza-claro);
+    }
+    .head_search:hover .search_input {
+        width: 100%;
+    }
+    .head_search:hover + .login {
+        display: inline;
+    }
+}
+@media screen and (min-width: 768px) {
+    .head_contenedor {
+        padding: 16px 64px;
     }
 
-    
 }

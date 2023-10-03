@@ -1,8 +1,14 @@
-footer{
+footer {
     line-height: 19px;
     font-weight: 500;
     padding-top: 3rem;
     padding-bottom: 3rem;
     text-align: center;
     color: var(--fuente-ceniza-claro);
+}
+
+@media screen and (min-width: 768px) {
+    footer{
+        font-size: 16px;
+    }
 }

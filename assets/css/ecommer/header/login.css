@@ -1,7 +1,8 @@
 
+
 .login_boton{
-    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
-    transition: all 1s ease-in-out;
+    padding: 0.3rem 1.2rem;
+    transition: all 1s ease;
 }
 .login_boton{
     color: var(--background-azul);
@@ -16,8 +17,4 @@
     color: #fff;
 }
 
-@media screen and (max-width:480px) {
-    .login_boton {
-        padding: 0.2rem 1.5rem 0.2rem 1.5rem;;
-    }
-}
+

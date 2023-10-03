@@ -1,7 +1,7 @@
 @media screen and (max-width:768px) {
     .formulario {
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding-left: 32px;
+        padding-right: 32px;
         position: relative;
     }
 
@@ -17,8 +17,8 @@
 @media screen and (max-width:480px) {
     .formulario {
         align-items: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         flex-direction: column;
     }
 

@@ -1,4 +1,7 @@
-
+.formulario {
+    padding-left: 64px;
+    padding-right: 64px;
+}
 .formulario_info {
     width: 40%;
 }
